@@ -8,7 +8,6 @@ services:
         volumes:
             - .:/var/www
         environment:
-            APP_ENV: test
             DEVELOPMENT: 1
 
     nginx:
